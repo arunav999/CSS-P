@@ -1,9 +1,10 @@
-import "./App.scss";
+import "./SASS/Card.scss";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <>
-      <div className="app">Arunav</div>
+      <Card />
     </>
   );
 }
